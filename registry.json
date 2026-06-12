@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "updated": "2026-06-12",
+  "sdk": {
+    "repo": "PerAsperaMods/PerAspera-SDK",
+    "assetPattern": "PerAspera-SDK-v*.zip"
+  },
+  "mods": [
+    {
+      "id": "WaterWork",
+      "name": "WaterWork",
+      "description": "Early water rework — ice veins drainables, gating pipeline, fonte de glace retravaillée (mod YAML).",
+      "type": "yaml",
+      "repo": "PerAsperaMods/WaterWork",
+      "sdkMinVersion": null,
+      "gameVersion": "1.8.x",
+      "dependencies": ["WaterWorkFix"]
+    },
+    {
+      "id": "WaterWorkFix",
+      "name": "WaterWorkFix",
+      "description": "Plugin compagnon C# de WaterWork — drain des veines, suppression de blocs, gating des pipes, fonte de glace.",
+      "type": "csharp",
+      "repo": "PerAsperaMods/WaterWorkFix",
+      "sdkMinVersion": "1.2.0",
+      "gameVersion": "1.8.x",
+      "dependencies": []
+    }
+  ]
+}
