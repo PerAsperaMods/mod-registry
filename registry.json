@@ -25,6 +25,16 @@
       "sdkMinVersion": "1.2.0",
       "gameVersion": "1.8.x",
       "dependencies": []
+    },
+    {
+      "id": "PerAspera-ExtendedYamlCommands",
+      "name": "Extended YAML Commands",
+      "description": "Custom YAML commands: AddResearchPoints, AddResource, AddBlackboardNumber, IncBlackboardNumber.",
+      "type": "csharp",
+      "repo": "PerAsperaMods/ExtendedYamlCommands",
+      "sdkMinVersion": "1.2.0",
+      "gameVersion": "1.8.x",
+      "dependencies": []
     }
   ]
 }
