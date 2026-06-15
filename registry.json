@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updated": "2026-06-12",
+  "updated": "2026-06-15",
   "sdk": {
     "repo": "PerAsperaMods/PerAspera-SDK",
     "assetPattern": "PerAspera-SDK-v*.zip"
@@ -39,14 +39,13 @@
     {
       "id": "MpModReconMod",
       "name": "MpModReconMod",
-      "description": "MpModReconMod",
+      "description": "Vérification de compatibilité des mods en multijoueur — bloque le join/start si les joueurs ont des mods différents.",
       "type": "csharp",
       "repo": "PerAsperaMods/MpModReconMod",
       "sdkMinVersion": "1.2.0",
       "gameVersion": "1.8.x",
-      "dependencies": []
+      "dependencies": [],
+      "preRelease": true
     }
   ]
 }
-
-
