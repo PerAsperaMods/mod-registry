@@ -17,6 +17,16 @@
       "dependencies": ["WaterWorkFix"]
     },
     {
+      "id": "MkAspera",
+      "name": "Ad Astra",
+      "description": "...",
+      "type": "yaml",
+      "repo": "PerAsperaMods/MkAspera",
+      "sdkMinVersion": null,
+      "gameVersion": "1.8.x",
+      "dependencies": ["WaterWork"]
+    },
+    {
       "id": "WaterWorkFix",
       "name": "WaterWorkFix",
       "description": "Plugin compagnon C# de WaterWork — drain des veines, suppression de blocs, gating des pipes, fonte de glace.",
@@ -27,14 +37,16 @@
       "dependencies": []
     },
     {
-      "id": "PerAspera-ExtendedYamlCommands",
-      "name": "Extended YAML Commands",
-      "description": "Custom YAML commands: AddResearchPoints, AddResource, AddBlackboardNumber, IncBlackboardNumber.",
+      "id": "MpModReconMod",
+      "name": "MpModReconMod",
+      "description": "MpModReconMod",
       "type": "csharp",
-      "repo": "PerAsperaMods/ExtendedYamlCommands",
+      "repo": "PerAsperaMods/MpModReconMod",
       "sdkMinVersion": "1.2.0",
       "gameVersion": "1.8.x",
       "dependencies": []
     }
   ]
 }
+
+
